@@ -4,8 +4,15 @@
 // - Font styles
 // The foregoing remain constant throughout all styles specified for all screens.
 
-/* Varibables */
-/* -------------------- */
+// Global Varibables
+$color-1: hsl(217, 19%, 35%);   // Very Dark Grayish Blue
+$color-2: hsl(214, 17%, 51%);   // Desaturated Dark Blue
+$color-3: hsl(212, 23%, 69%);   // Grayish Blue
+$color-4: hsl(210, 46%, 95%);   // Light Grayish Blue
+
+$body-font: 13px;
+
+$font-stack: Manrope;
 
 /* Reset browser defaults */
 html {
