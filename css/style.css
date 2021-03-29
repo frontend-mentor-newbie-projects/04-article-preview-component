@@ -21,7 +21,11 @@ li {
 }
 
 /* Base + Font styles */
-/* -------------------- */
+body {
+  font-family: Manrope;
+  background-color: #ecf2f8;
+}
+
 /* Mobile styles -- Starting point */
 /* -------------------- */
 /* Footer styles */
