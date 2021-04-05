@@ -56,6 +56,28 @@ main #cover-image {
     }
 }
 
+main #article-preview {
+    background-color: white;
+
+    padding: 40px 32px 16px 32px;
+
+    h1 {
+        color: $color-1;
+        font-size: 16px;
+        font-weight: 700;
+
+        margin-bottom: 24px;
+    }
+
+    p {
+        color: $color-2;
+        font-size: 12px;
+        font-weight: 500;
+        
+        line-height: 24px;
+    }
+}
+
 // - Small mobile - 320px
 // - Medium mobile - 375px
 // - Large mobile - 425px

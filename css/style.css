@@ -35,6 +35,25 @@ main #cover-image #image {
   border-top-right-radius: 16px;
 }
 
+main #article-preview {
+  background-color: white;
+  padding: 40px 32px 16px 32px;
+}
+
+main #article-preview h1 {
+  color: #48556a;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+main #article-preview p {
+  color: #6d7f97;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
 /* Mobile styles -- Starting point */
 body {
   display: flex;
