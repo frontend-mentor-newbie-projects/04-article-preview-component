@@ -27,7 +27,15 @@ body {
 }
 
 /* Mobile styles -- Starting point */
-/* -------------------- */
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 72px 24px;
+}
+
 /* Footer styles */
 .attribution {
   font-size: 11px;

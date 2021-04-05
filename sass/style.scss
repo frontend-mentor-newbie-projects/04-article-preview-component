@@ -10,7 +10,7 @@ $color-2: hsl(214, 17%, 51%);   // Desaturated Dark Blue
 $color-3: hsl(212, 23%, 69%);   // Grayish Blue
 $color-4: hsl(210, 46%, 95%);   // Light Grayish Blue
 
-$body-font: 13px;
+$body-font-size: 13px;
 
 $font-stack: Manrope;
 
@@ -54,7 +54,17 @@ body {
 
 /* Mobile styles -- Starting point */
 // 12 col | 8 col | 4 col
-/* -------------------- */
+body {
+    display: flex;
+
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+
+    padding: 72px 24px;
+}
 
 /* Footer styles */
 .attribution {
