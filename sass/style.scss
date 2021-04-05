@@ -129,8 +129,6 @@ main #author {
         justify-content: center;
         align-items: center;
     }
-
-    display: none;
 }
 
 main #share {
@@ -199,6 +197,15 @@ main #share {
         align-items: center;
     }
 }
+
+main #share.hidden {
+    display: none;
+}
+
+main #author.hidden {
+    display: none;
+}
+
 // - Small mobile - 320px
 // - Medium mobile - 375px
 // - Large mobile - 425px

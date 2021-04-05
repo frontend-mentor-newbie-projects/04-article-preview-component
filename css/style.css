@@ -62,7 +62,6 @@ main #author {
   height: 64px;
   padding: 0 32px 0 32px;
   position: relative;
-  display: none;
 }
 
 main #author #profile-picture {
@@ -150,6 +149,14 @@ main #share .share-button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+main #share.hidden {
+  display: none;
+}
+
+main #author.hidden {
+  display: none;
 }
 
 /* Mobile styles -- Starting point */
