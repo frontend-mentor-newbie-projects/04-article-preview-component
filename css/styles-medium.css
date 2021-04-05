@@ -1,2 +1,61 @@
 /* Large tablets + small laptops styles -- The width of the screen is at least 960px */
+@media screen and (min-width: 960px) {
+  main.grid {
+    min-width: 700px;
+    width: 736px;
+    max-width: 750px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto auto;
+  }
+  main #cover-image {
+    grid-column: 1 / span 4;
+    grid-row: 1 / -1;
+  }
+  main #cover-image #image {
+    height: 280px;
+  }
+  main #article-preview {
+    grid-column: 5 / -1;
+    grid-row: 1 / 2;
+    padding: 36px 40px 8px 40px;
+  }
+  main #article-preview h1 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  main #article-preview p {
+    font-size: 12.5px;
+  }
+  main #author {
+    grid-column: 5 / -1;
+    grid-row: 2 / -1;
+    padding: 0 40px 0 40px;
+  }
+  main #share {
+    grid-column: 5 / -1;
+    grid-row: 2 / -1;
+    padding: 0 40px 0 40px;
+  }
+  main #author.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  main #author.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  main #author.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+}
 /*# sourceMappingURL=styles-medium.css.map */

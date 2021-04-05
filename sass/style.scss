@@ -50,9 +50,6 @@ main #cover-image {
 
         background-image: url(../images/drawers.jpg);
         background-size: cover;
-
-        border-top-left-radius: 16px;
-        border-top-right-radius: 16px;
     }
 }
 
@@ -235,7 +232,7 @@ body {
 main {
     width: 328px;
 
-    border-radius: 1rem;
+    border-radius: 16px;
     
     box-shadow: // TODO: Might need to apply this property on the individual sections.
     0  1px  1px  rgba(0,0,0,0.05), 
