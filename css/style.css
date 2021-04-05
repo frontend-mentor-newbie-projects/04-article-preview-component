@@ -54,6 +54,54 @@ main #article-preview p {
   line-height: 24px;
 }
 
+main #author {
+  background-color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 64px;
+  padding: 0 32px 0 32px;
+  position: relative;
+}
+
+main #author #profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+main #author #author-information {
+  margin-left: 16px;
+}
+
+main #author #author-information p {
+  color: #48556a;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+main #author #author-information time {
+  color: #6d7f97;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+main #author #share-button {
+  background-color: #ecf2f8;
+  position: absolute;
+  right: 32px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main #share {
+  display: none;
+}
+
 /* Mobile styles -- Starting point */
 body {
   display: flex;

@@ -78,6 +78,63 @@ main #article-preview {
     }
 }
 
+main #author {
+    background-color: white;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    height: 64px;
+
+    padding: 0 32px 0 32px;
+
+    position: relative;
+
+    #profile-picture {
+        width: 40px;
+        height: 40px;
+
+        border-radius: 50%;
+    }
+
+    #author-information {
+        margin-left: 16px;
+    }
+
+    #author-information p {
+        color: $color-1;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    #author-information time {
+        color: $color-2;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    #share-button {
+        background-color: $color-4;
+
+        position: absolute;
+        right: 32px;
+
+        width: 32px;
+        height: 32px;
+
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+main #share {
+    display: none;
+}
+
 // - Small mobile - 320px
 // - Medium mobile - 375px
 // - Large mobile - 425px
