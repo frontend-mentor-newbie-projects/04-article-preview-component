@@ -43,6 +43,19 @@ body {
     background-color: $color-4;
 }
 
+main #cover-image {
+    #image {
+        height: 200px;
+        width: 100%;
+
+        background-image: url(../images/drawers.jpg);
+        background-size: cover;
+
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+}
+
 // - Small mobile - 320px
 // - Medium mobile - 375px
 // - Large mobile - 425px

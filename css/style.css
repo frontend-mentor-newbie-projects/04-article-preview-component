@@ -26,6 +26,15 @@ body {
   background-color: #ecf2f8;
 }
 
+main #cover-image #image {
+  height: 200px;
+  width: 100%;
+  background-image: url(../images/drawers.jpg);
+  background-size: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
 /* Mobile styles -- Starting point */
 body {
   display: flex;
